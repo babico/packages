@@ -1,17 +1,17 @@
 {
-    "version": "1.4.9",
+    "version": "1.5.0",
     "description": "Open-source remote desktop software",
     "homepage": "https://rustdesk.com",
     "license": "AGPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.9/rustdesk-1.4.9-x86_64.exe",
+            "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.0/rustdesk-1.5.0-x86_64.exe",
             "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
         }
     },
     "installer": {
         "script": [
-            "$process = Start-Process -FilePath \"$dir\\rustdesk-1.4.9-x86_64.exe\" -ArgumentList @('/S') -Wait -PassThru",
+            "$process = Start-Process -FilePath \"$dir\\rustdesk-1.5.0-x86_64.exe\" -ArgumentList @('/S') -Wait -PassThru",
             "exit $process.ExitCode"
         ]
     },
