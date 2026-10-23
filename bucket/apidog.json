@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://file-assets.apidog.com/download/Apidog-windows-latest.zip",
-            "hash": "d6e24ae09b00fa6791e7edb3300a155361029b0d803376c85a4438b229baa1d1"
+            "hash": "e9a7621c98ffdd84ab6f9050387ce8e8928a08e7f9f77d12add826bf7f801ab0"
         },
         "32bit": {
             "url": "https://file-assets.apidog.com/download/Apidog-win32-latest.zip",
