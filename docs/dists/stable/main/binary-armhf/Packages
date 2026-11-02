@@ -15,16 +15,16 @@ Description: GitHub’s official command line tool.
 License: MIT
 
 Package: rustdesk
-Version: 1.5.0
+Version: 1.5.1
 Architecture: armhf
 Maintainer: rustdesk <info@rustdesk.com>
 Depends: libgtk-3-0t64 | libgtk-3-0, libxcb-randr0, libxdo3 | libxdo4, libxfixes3, libxcb-shape0, libxcb-xfixes0, libasound2t64 | libasound2, libsystemd0, curl, libva2, libva-drm2, libva-x11-2, libgstreamer-plugins-base1.0-0, gstreamer1.0-pipewire, libatomic1
 Recommends: libayatana-appindicator3-1
-Filename: pool/main/r/rustdesk/rustdesk-1.5.0-armv7-sciter.deb
-Size: 14913220
-MD5sum: 2b3b39dbc27d175e22e3f12815b3c5a0
-SHA1: e257604888d359e3181d35d310ec9ffd6be7a7a1
-SHA256: e98e4dba368dc17ff79c8b04dadf1028b6e3ebe0ba85312267c948cca1e67bc5
+Filename: pool/main/r/rustdesk/rustdesk-1.5.1-armv7-sciter.deb
+Size: 15238164
+MD5sum: c0ad8ae7cfef3eeddd6dbe9c45b408fe
+SHA1: 63e495c1f3eefd76cf8f232cf6e576bf768acaef
+SHA256: 560aaa3c89a9fc5eb3ebb9afe7260acf637b1ba72f3ca17129391430418eab90
 Section: net
 Priority: optional
 Homepage: https://rustdesk.com
