@@ -10,7 +10,7 @@ class Apidog < Formula
     end
     on_intel do
       url "https://file-assets.apidog.com/download/Apidog-macOS-latest.zip"
-      sha256 "4236e9a18a59855f102e1f9a9c1e289e6f51b557f859dd0f99e28751efff72a1"
+      sha256 "924f6153f23bdda0b2eb42b5942478ec4022c0bbda113012fc3c1b2ccbde28ad"
     end
 
     version "2.8.52"
@@ -28,7 +28,7 @@ class Apidog < Formula
   on_linux do
     on_arm do
       url "https://file-assets.apidog.com/download/Apidog-linux-arm64-deb-latest.zip"
-      sha256 "b7382d7cda6b2ee89752206a5069ab750f20e96e6d5a66cf3810f053aebfbe75"
+      sha256 "22f0877db0a47f6c8ec51f456098938614d9d3be6fa46be1ec1aef965c03a6fd"
     end
     on_intel do
       url "https://file-assets.apidog.com/download/Apidog-linux-deb-latest.zip"
