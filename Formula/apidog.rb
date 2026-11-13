@@ -6,7 +6,7 @@ class Apidog < Formula
   on_macos do
     on_arm do
       url "https://file-assets.apidog.com/download/Apidog-macOS-arm64-latest.zip"
-      sha256 "deded1a408574fae11c14a2840d88676fad0c686da2986f71c2be0fdc4ef39a7"
+      sha256 "7697041e1d4353cfd1e99f73e6621634341e7cb4f305137db28424d1dbc1e407"
     end
     on_intel do
       url "https://file-assets.apidog.com/download/Apidog-macOS-latest.zip"
