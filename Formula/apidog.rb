@@ -13,7 +13,7 @@ class Apidog < Formula
       sha256 "924f6153f23bdda0b2eb42b5942478ec4022c0bbda113012fc3c1b2ccbde28ad"
     end
 
-    version "2.8.54"
+    version "2.8.55"
 
     def install
       system "unzip", "-q", pkgfiles.first
@@ -28,14 +28,14 @@ class Apidog < Formula
   on_linux do
     on_arm do
       url "https://file-assets.apidog.com/download/Apidog-linux-arm64-deb-latest.zip"
-      sha256 "22f0877db0a47f6c8ec51f456098938614d9d3be6fa46be1ec1aef965c03a6fd"
+      sha256 "053b42c664b6aee115e768efe01ee8d0b4c116049e4b5d960ce99deb28332986"
     end
     on_intel do
       url "https://file-assets.apidog.com/download/Apidog-linux-deb-latest.zip"
       sha256 "35c01e26c3b63d8ffaaa9e4fdde1ca7aed96bc416c23352b6f08c156f1c1bc39"
     end
 
-    version "2.8.54"
+    version "2.8.55"
 
     def install
       system "unzip", "-q", pkgfiles.first
