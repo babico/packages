@@ -6,6 +6,32 @@
     "archs": [
       "amd64",
       "i386"
+    ],
+    "assets": [
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://download.tixati.com/tixati-3.44-1.win32-install.exe",
+        "name": "tixati-3.44-1.win32-install.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://download.tixati.com/tixati-3.44-1.win64-install.exe",
+        "name": "tixati-3.44-1.win64-install.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://download.tixati.com/tixati_3.44-1_amd64.deb",
+        "name": "tixati_3.44-1_amd64.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "i386",
+        "url": "https://download.tixati.com/tixati_3.44-1_i686.deb",
+        "name": "tixati_3.44-1_i686.deb"
+      }
     ]
   },
   {
@@ -15,6 +41,32 @@
     "archs": [
       "amd64",
       "i386"
+    ],
+    "assets": [
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://download.tixati.com/tixati-3.43-1.win32-install.exe",
+        "name": "tixati-3.43-1.win32-install.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://download.tixati.com/tixati-3.43-1.win64-install.exe",
+        "name": "tixati-3.43-1.win64-install.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://download.tixati.com/tixati_3.43-1_amd64.deb",
+        "name": "tixati_3.43-1_amd64.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "i386",
+        "url": "https://download.tixati.com/tixati_3.43-1_i686.deb",
+        "name": "tixati_3.43-1_i686.deb"
+      }
     ]
   },
   {
@@ -24,6 +76,32 @@
     "archs": [
       "amd64",
       "i386"
+    ],
+    "assets": [
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://download.tixati.com/tixati-3.42-1.win32-install.exe",
+        "name": "tixati-3.42-1.win32-install.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://download.tixati.com/tixati-3.42-1.win64-install.exe",
+        "name": "tixati-3.42-1.win64-install.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://download.tixati.com/tixati_3.42-1_amd64.deb",
+        "name": "tixati_3.42-1_amd64.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "i386",
+        "url": "https://download.tixati.com/tixati_3.42-1_i686.deb",
+        "name": "tixati_3.42-1_i686.deb"
+      }
     ]
   },
   {
@@ -33,6 +111,32 @@
     "archs": [
       "amd64",
       "i386"
+    ],
+    "assets": [
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://download.tixati.com/tixati-3.41-1.win32-install.exe",
+        "name": "tixati-3.41-1.win32-install.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://download.tixati.com/tixati-3.41-1.win64-install.exe",
+        "name": "tixati-3.41-1.win64-install.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://download.tixati.com/tixati_3.41-1_amd64.deb",
+        "name": "tixati_3.41-1_amd64.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "i386",
+        "url": "https://download.tixati.com/tixati_3.41-1_i686.deb",
+        "name": "tixati_3.41-1_i686.deb"
+      }
     ]
   },
   {
@@ -42,6 +146,32 @@
     "archs": [
       "amd64",
       "i386"
+    ],
+    "assets": [
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://download.tixati.com/tixati-3.39-1.win32-install.exe",
+        "name": "tixati-3.39-1.win32-install.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://download.tixati.com/tixati-3.39-1.win64-install.exe",
+        "name": "tixati-3.39-1.win64-install.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://download.tixati.com/tixati_3.39-1_amd64.deb",
+        "name": "tixati_3.39-1_amd64.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "i386",
+        "url": "https://download.tixati.com/tixati_3.39-1_i686.deb",
+        "name": "tixati_3.39-1_i686.deb"
+      }
     ]
   },
   {
@@ -51,6 +181,32 @@
     "archs": [
       "amd64",
       "i386"
+    ],
+    "assets": [
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://download.tixati.com/tixati-3.38-1.win32-install.exe",
+        "name": "tixati-3.38-1.win32-install.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://download.tixati.com/tixati-3.38-1.win64-install.exe",
+        "name": "tixati-3.38-1.win64-install.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://download.tixati.com/tixati_3.38-1_amd64.deb",
+        "name": "tixati_3.38-1_amd64.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "i386",
+        "url": "https://download.tixati.com/tixati_3.38-1_i686.deb",
+        "name": "tixati_3.38-1_i686.deb"
+      }
     ]
   }
 ]

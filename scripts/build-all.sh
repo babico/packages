@@ -53,11 +53,12 @@ upsert_version() {
   local f="$TRACK_DIR/${name}.json"
   mkdir -p "$TRACK_DIR"
   [ -f "$f" ] || echo "[]" > "$f"
-  local archs_json
+  local archs_json assets_json
   archs_json=$(detect_archs_in_pool "$product" "$ver")
+  assets_json=$(assets_for_version "$product" "$ver")
   local entry
-  entry=$(jq -n --arg v "$ver" --arg a "$NOW" --arg r "$rel_date" --argjson archs "$archs_json" \
-    '{"version":$v,"released_at":$r,"added_at":$a,"archs":$archs}')
+  entry=$(jq -n --arg v "$ver" --arg a "$NOW" --arg r "$rel_date" --argjson archs "$archs_json" --argjson assets "$assets_json" \
+    '{"version":$v,"released_at":$r,"added_at":$a,"archs":$archs,"assets":$assets}')
   local tmp
   tmp=$(mktemp)
   jq --argjson e "$entry" '
@@ -66,6 +67,43 @@ upsert_version() {
   ' "$f" > "$tmp"
   mv "$tmp" "$f"
   echo "    [track] $ver archs=$(echo "$archs_json" | jq -r 'join(",")')"
+}
+
+# Asset links for non-GitHub sources (Apidog "latest" URLs) so the landing
+# page can show every platform/CPU even though no binary is hosted locally.
+assets_for_version() {
+  local product="$1"
+  local config="$BUILD_DIR/$product/config.yml"
+  local source
+  source=$(yget "$config" source)
+  [ "$source" = "zip_download" ] || { printf '[]'; return 0; }
+
+  local sf dl suffix arch os label out="[]" f
+  sf="$BUILD_DIR/$product/scoop.yml"
+  dl=$(yget "$sf" download_url)
+  for pair in "suffix_64:windows:amd64" "suffix_32:windows:i386"; do
+    local key rest cpu
+    key="${pair%%:*}"
+    rest="${pair#*:}"
+    os="${rest%%:*}"
+    cpu="${rest#*:}"
+    suffix=$(yget "$sf" "$key")
+    [ -z "$suffix" ] && continue
+    out=$(jq -c --arg os "$os" --arg cpu "$cpu" --arg url "$(printf '%s' "$dl" | sed "s|\${SUFFIX}|$suffix|g")" \
+      '. + [{os:$os, cpu:$cpu, url:$url, name:($url|split("/")|last)}]' <<<"$out")
+  done
+
+  for f in "$BUILD_DIR/$product"/dmg-*.yml "$BUILD_DIR/$product"/deb-*.yml; do
+    [ -f "$f" ] || continue
+    case "$(basename "$f")" in dmg-*) os=macos ;; *) os=linux ;; esac
+    arch=$(yget "$f" arch)
+    suffix=$(yget "$f" suffix)
+    dl=$(yget "$f" download_url)
+    [ -z "$dl" ] && continue
+    out=$(jq -c --arg os "$os" --arg cpu "$arch" --arg url "$(printf '%s' "$dl" | sed "s|\${SUFFIX}|$suffix|g")" \
+      '. + [{os:$os, cpu:$cpu, url:$url, name:($url|split("/")|last)}]' <<<"$out")
+  done
+  printf '%s' "$out"
 }
 
 detect_archs_in_pool() {

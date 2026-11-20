@@ -72,6 +72,17 @@ for dir in "$BUILD_DIR"/*/; do
         done
       done < <(echo "$ROW"|jq -r '.archs[]' 2>/dev/null || true)
 
+      PLATFORM_LINKS=""
+      while IFS= read -r A; do
+        [ -n "$A" ] || continue
+        os=$(echo "$A"|jq -r '.os')
+        cpu=$(echo "$A"|jq -r '.cpu')
+        aurl=$(echo "$A"|jq -r '.url')
+        [ -z "$aurl" ] && continue
+        case "$os" in windows) tagp="win" ;; macos) tagp="mac" ;; linux) tagp="lin" ;; *) tagp="$os" ;; esac
+        PLATFORM_LINKS="${PLATFORM_LINKS}<a class=\"dl\" href=\"${aurl}\">${tagp}-${cpu}</a>"
+      done < <(echo "$ROW"|jq -c '.assets[]?' 2>/dev/null || true)
+
       tag="${prefix}${V}"
       if [ -n "$changelog_url" ]; then
         C_LINK="<a class=\"dl\" href=\"${changelog_url}\">log</a>"
@@ -91,7 +102,7 @@ for dir in "$BUILD_DIR"/*/; do
           <td><code>${V}</code>${latest_badge}</td>
           <td>${REL}</td>
           <td class=\"arch-cell\">${ARCHS}</td>
-          <td>${DEB_LINKS}</td>
+          <td>${DEB_LINKS}${PLATFORM_LINKS}</td>
           <td>${C_LINK}</td>
         </tr>"
     done < <(jq -c '.[]' "$TRACKING")
@@ -118,7 +129,7 @@ brew install ${app_name}           <span class=\"dim\"># macOS / Linux</span></c
       <input class=\"search\" type=\"search\" placeholder=\"Filter versions&hellip;\" oninput=\"filterTable(this,'tbody-${app_name}')\" />
       <div class=\"tbl-wrap\">
         <table>
-          <thead><tr><th>Version</th><th>Released</th><th>Arch</th><th>.deb</th><th></th></tr></thead>
+          <thead><tr><th>Version</th><th>Released</th><th>Arch</th><th>Install</th><th></th></tr></thead>
           <tbody id=\"tbody-${app_name}\">${ROWS}</tbody>
         </table>
       </div>

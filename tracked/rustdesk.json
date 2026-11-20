@@ -6,7 +6,82 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.3/rustdesk-1.5.3-aarch64.deb",
+        "name": "rustdesk-1.5.3-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.3/rustdesk-1.5.3-aarch64.dmg",
+        "name": "rustdesk-1.5.3-aarch64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.3/rustdesk-1.5.3-aarch64.exe",
+        "name": "rustdesk-1.5.3-aarch64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.3/rustdesk-1.5.3-aarch64.msi",
+        "name": "rustdesk-1.5.3-aarch64.msi"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.3/rustdesk-1.5.3-armv7-sciter.deb",
+        "name": "rustdesk-1.5.3-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.3/rustdesk-1.5.3-x86-sciter.exe",
+        "name": "rustdesk-1.5.3-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.3/rustdesk-1.5.3-x86_64-sciter.deb",
+        "name": "rustdesk-1.5.3-x86_64-sciter.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.3/rustdesk-1.5.3-x86_64.deb",
+        "name": "rustdesk-1.5.3-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.3/rustdesk-1.5.3-x86_64.dmg",
+        "name": "rustdesk-1.5.3-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.3/rustdesk-1.5.3-x86_64.exe",
+        "name": "rustdesk-1.5.3-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.3/rustdesk-1.5.3-x86_64.msi",
+        "name": "rustdesk-1.5.3-x86_64.msi"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.3/rustdesk-unattended-wayland-1.5.3-x86_64.deb",
+        "name": "rustdesk-unattended-wayland-1.5.3-x86_64.deb"
+      }
     ]
   },
   {
@@ -16,7 +91,82 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-aarch64.deb",
+        "name": "rustdesk-1.5.1-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-aarch64.dmg",
+        "name": "rustdesk-1.5.1-aarch64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-aarch64.exe",
+        "name": "rustdesk-1.5.1-aarch64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-aarch64.msi",
+        "name": "rustdesk-1.5.1-aarch64.msi"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-armv7-sciter.deb",
+        "name": "rustdesk-1.5.1-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-x86-sciter.exe",
+        "name": "rustdesk-1.5.1-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-x86_64-sciter.deb",
+        "name": "rustdesk-1.5.1-x86_64-sciter.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-x86_64.deb",
+        "name": "rustdesk-1.5.1-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-x86_64.dmg",
+        "name": "rustdesk-1.5.1-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-x86_64.exe",
+        "name": "rustdesk-1.5.1-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-x86_64.msi",
+        "name": "rustdesk-1.5.1-x86_64.msi"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-unattended-wayland-1.5.1-x86_64.deb",
+        "name": "rustdesk-unattended-wayland-1.5.1-x86_64.deb"
+      }
     ]
   },
   {
@@ -26,7 +176,82 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.0/rustdesk-1.5.0-aarch64.deb",
+        "name": "rustdesk-1.5.0-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.0/rustdesk-1.5.0-aarch64.dmg",
+        "name": "rustdesk-1.5.0-aarch64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.0/rustdesk-1.5.0-aarch64.exe",
+        "name": "rustdesk-1.5.0-aarch64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.0/rustdesk-1.5.0-aarch64.msi",
+        "name": "rustdesk-1.5.0-aarch64.msi"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.0/rustdesk-1.5.0-armv7-sciter.deb",
+        "name": "rustdesk-1.5.0-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.0/rustdesk-1.5.0-x86-sciter.exe",
+        "name": "rustdesk-1.5.0-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.0/rustdesk-1.5.0-x86_64-sciter.deb",
+        "name": "rustdesk-1.5.0-x86_64-sciter.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.0/rustdesk-1.5.0-x86_64.deb",
+        "name": "rustdesk-1.5.0-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.0/rustdesk-1.5.0-x86_64.dmg",
+        "name": "rustdesk-1.5.0-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.0/rustdesk-1.5.0-x86_64.exe",
+        "name": "rustdesk-1.5.0-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.0/rustdesk-1.5.0-x86_64.msi",
+        "name": "rustdesk-1.5.0-x86_64.msi"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.0/rustdesk-unattended-wayland-1.5.0-x86_64.deb",
+        "name": "rustdesk-unattended-wayland-1.5.0-x86_64.deb"
+      }
     ]
   },
   {
@@ -36,7 +261,76 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.9/rustdesk-1.4.9-aarch64.deb",
+        "name": "rustdesk-1.4.9-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.9/rustdesk-1.4.9-aarch64.dmg",
+        "name": "rustdesk-1.4.9-aarch64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.9/rustdesk-1.4.9-aarch64.exe",
+        "name": "rustdesk-1.4.9-aarch64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.9/rustdesk-1.4.9-aarch64.msi",
+        "name": "rustdesk-1.4.9-aarch64.msi"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.9/rustdesk-1.4.9-armv7-sciter.deb",
+        "name": "rustdesk-1.4.9-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.9/rustdesk-1.4.9-x86-sciter.exe",
+        "name": "rustdesk-1.4.9-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.9/rustdesk-1.4.9-x86_64-sciter.deb",
+        "name": "rustdesk-1.4.9-x86_64-sciter.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.9/rustdesk-1.4.9-x86_64.deb",
+        "name": "rustdesk-1.4.9-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.9/rustdesk-1.4.9-x86_64.dmg",
+        "name": "rustdesk-1.4.9-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.9/rustdesk-1.4.9-x86_64.exe",
+        "name": "rustdesk-1.4.9-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.9/rustdesk-1.4.9-x86_64.msi",
+        "name": "rustdesk-1.4.9-x86_64.msi"
+      }
     ]
   },
   {
@@ -46,7 +340,76 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.8/rustdesk-1.4.8-aarch64.deb",
+        "name": "rustdesk-1.4.8-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.8/rustdesk-1.4.8-aarch64.dmg",
+        "name": "rustdesk-1.4.8-aarch64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.8/rustdesk-1.4.8-aarch64.exe",
+        "name": "rustdesk-1.4.8-aarch64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.8/rustdesk-1.4.8-aarch64.msi",
+        "name": "rustdesk-1.4.8-aarch64.msi"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.8/rustdesk-1.4.8-armv7-sciter.deb",
+        "name": "rustdesk-1.4.8-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.8/rustdesk-1.4.8-x86-sciter.exe",
+        "name": "rustdesk-1.4.8-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.8/rustdesk-1.4.8-x86_64-sciter.deb",
+        "name": "rustdesk-1.4.8-x86_64-sciter.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.8/rustdesk-1.4.8-x86_64.deb",
+        "name": "rustdesk-1.4.8-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.8/rustdesk-1.4.8-x86_64.dmg",
+        "name": "rustdesk-1.4.8-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.8/rustdesk-1.4.8-x86_64.exe",
+        "name": "rustdesk-1.4.8-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.8/rustdesk-1.4.8-x86_64.msi",
+        "name": "rustdesk-1.4.8-x86_64.msi"
+      }
     ]
   },
   {
@@ -56,7 +419,64 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.7/rustdesk-1.4.7-aarch64.deb",
+        "name": "rustdesk-1.4.7-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.7/rustdesk-1.4.7-aarch64.dmg",
+        "name": "rustdesk-1.4.7-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.7/rustdesk-1.4.7-armv7-sciter.deb",
+        "name": "rustdesk-1.4.7-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.7/rustdesk-1.4.7-x86-sciter.exe",
+        "name": "rustdesk-1.4.7-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.7/rustdesk-1.4.7-x86_64-sciter.deb",
+        "name": "rustdesk-1.4.7-x86_64-sciter.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.7/rustdesk-1.4.7-x86_64.deb",
+        "name": "rustdesk-1.4.7-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.7/rustdesk-1.4.7-x86_64.dmg",
+        "name": "rustdesk-1.4.7-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.7/rustdesk-1.4.7-x86_64.exe",
+        "name": "rustdesk-1.4.7-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.7/rustdesk-1.4.7-x86_64.msi",
+        "name": "rustdesk-1.4.7-x86_64.msi"
+      }
     ]
   },
   {
@@ -66,7 +486,64 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.6/rustdesk-1.4.6-aarch64.deb",
+        "name": "rustdesk-1.4.6-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.6/rustdesk-1.4.6-aarch64.dmg",
+        "name": "rustdesk-1.4.6-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.6/rustdesk-1.4.6-armv7-sciter.deb",
+        "name": "rustdesk-1.4.6-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.6/rustdesk-1.4.6-x86-sciter.exe",
+        "name": "rustdesk-1.4.6-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.6/rustdesk-1.4.6-x86_64-sciter.deb",
+        "name": "rustdesk-1.4.6-x86_64-sciter.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.6/rustdesk-1.4.6-x86_64.deb",
+        "name": "rustdesk-1.4.6-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.6/rustdesk-1.4.6-x86_64.dmg",
+        "name": "rustdesk-1.4.6-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.6/rustdesk-1.4.6-x86_64.exe",
+        "name": "rustdesk-1.4.6-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.6/rustdesk-1.4.6-x86_64.msi",
+        "name": "rustdesk-1.4.6-x86_64.msi"
+      }
     ]
   },
   {
@@ -76,7 +553,64 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.5/rustdesk-1.4.5-aarch64.deb",
+        "name": "rustdesk-1.4.5-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.5/rustdesk-1.4.5-aarch64.dmg",
+        "name": "rustdesk-1.4.5-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.5/rustdesk-1.4.5-armv7-sciter.deb",
+        "name": "rustdesk-1.4.5-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.5/rustdesk-1.4.5-x86-sciter.exe",
+        "name": "rustdesk-1.4.5-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.5/rustdesk-1.4.5-x86_64-sciter.deb",
+        "name": "rustdesk-1.4.5-x86_64-sciter.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.5/rustdesk-1.4.5-x86_64.deb",
+        "name": "rustdesk-1.4.5-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.5/rustdesk-1.4.5-x86_64.dmg",
+        "name": "rustdesk-1.4.5-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.5/rustdesk-1.4.5-x86_64.exe",
+        "name": "rustdesk-1.4.5-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.5/rustdesk-1.4.5-x86_64.msi",
+        "name": "rustdesk-1.4.5-x86_64.msi"
+      }
     ]
   },
   {
@@ -86,7 +620,64 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.4/rustdesk-1.4.4-aarch64.deb",
+        "name": "rustdesk-1.4.4-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.4/rustdesk-1.4.4-aarch64.dmg",
+        "name": "rustdesk-1.4.4-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.4/rustdesk-1.4.4-armv7-sciter.deb",
+        "name": "rustdesk-1.4.4-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.4/rustdesk-1.4.4-x86-sciter.exe",
+        "name": "rustdesk-1.4.4-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.4/rustdesk-1.4.4-x86_64-sciter.deb",
+        "name": "rustdesk-1.4.4-x86_64-sciter.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.4/rustdesk-1.4.4-x86_64.deb",
+        "name": "rustdesk-1.4.4-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.4/rustdesk-1.4.4-x86_64.dmg",
+        "name": "rustdesk-1.4.4-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.4/rustdesk-1.4.4-x86_64.exe",
+        "name": "rustdesk-1.4.4-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.4/rustdesk-1.4.4-x86_64.msi",
+        "name": "rustdesk-1.4.4-x86_64.msi"
+      }
     ]
   },
   {
@@ -96,7 +687,64 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.3/rustdesk-1.4.3-aarch64.deb",
+        "name": "rustdesk-1.4.3-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.3/rustdesk-1.4.3-aarch64.dmg",
+        "name": "rustdesk-1.4.3-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.3/rustdesk-1.4.3-armv7-sciter.deb",
+        "name": "rustdesk-1.4.3-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.3/rustdesk-1.4.3-x86-sciter.exe",
+        "name": "rustdesk-1.4.3-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.3/rustdesk-1.4.3-x86_64-sciter.deb",
+        "name": "rustdesk-1.4.3-x86_64-sciter.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.3/rustdesk-1.4.3-x86_64.deb",
+        "name": "rustdesk-1.4.3-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.3/rustdesk-1.4.3-x86_64.dmg",
+        "name": "rustdesk-1.4.3-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.3/rustdesk-1.4.3-x86_64.exe",
+        "name": "rustdesk-1.4.3-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.3/rustdesk-1.4.3-x86_64.msi",
+        "name": "rustdesk-1.4.3-x86_64.msi"
+      }
     ]
   },
   {
@@ -106,7 +754,64 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.2/rustdesk-1.4.2-aarch64.deb",
+        "name": "rustdesk-1.4.2-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.2/rustdesk-1.4.2-aarch64.dmg",
+        "name": "rustdesk-1.4.2-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.2/rustdesk-1.4.2-armv7-sciter.deb",
+        "name": "rustdesk-1.4.2-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.2/rustdesk-1.4.2-x86-sciter.exe",
+        "name": "rustdesk-1.4.2-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.2/rustdesk-1.4.2-x86_64-sciter.deb",
+        "name": "rustdesk-1.4.2-x86_64-sciter.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.2/rustdesk-1.4.2-x86_64.deb",
+        "name": "rustdesk-1.4.2-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.2/rustdesk-1.4.2-x86_64.dmg",
+        "name": "rustdesk-1.4.2-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.2/rustdesk-1.4.2-x86_64.exe",
+        "name": "rustdesk-1.4.2-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.2/rustdesk-1.4.2-x86_64.msi",
+        "name": "rustdesk-1.4.2-x86_64.msi"
+      }
     ]
   },
   {
@@ -116,7 +821,64 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.1/rustdesk-1.4.1-aarch64.deb",
+        "name": "rustdesk-1.4.1-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.1/rustdesk-1.4.1-aarch64.dmg",
+        "name": "rustdesk-1.4.1-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.1/rustdesk-1.4.1-armv7-sciter.deb",
+        "name": "rustdesk-1.4.1-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.1/rustdesk-1.4.1-x86-sciter.exe",
+        "name": "rustdesk-1.4.1-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.1/rustdesk-1.4.1-x86_64-sciter.deb",
+        "name": "rustdesk-1.4.1-x86_64-sciter.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.1/rustdesk-1.4.1-x86_64.deb",
+        "name": "rustdesk-1.4.1-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.1/rustdesk-1.4.1-x86_64.dmg",
+        "name": "rustdesk-1.4.1-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.1/rustdesk-1.4.1-x86_64.exe",
+        "name": "rustdesk-1.4.1-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.1/rustdesk-1.4.1-x86_64.msi",
+        "name": "rustdesk-1.4.1-x86_64.msi"
+      }
     ]
   },
   {
@@ -126,7 +888,64 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.0/rustdesk-1.4.0-aarch64.deb",
+        "name": "rustdesk-1.4.0-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.0/rustdesk-1.4.0-aarch64.dmg",
+        "name": "rustdesk-1.4.0-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.0/rustdesk-1.4.0-armv7-sciter.deb",
+        "name": "rustdesk-1.4.0-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.0/rustdesk-1.4.0-x86-sciter.exe",
+        "name": "rustdesk-1.4.0-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.0/rustdesk-1.4.0-x86_64-sciter.deb",
+        "name": "rustdesk-1.4.0-x86_64-sciter.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.0/rustdesk-1.4.0-x86_64.deb",
+        "name": "rustdesk-1.4.0-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.0/rustdesk-1.4.0-x86_64.dmg",
+        "name": "rustdesk-1.4.0-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.0/rustdesk-1.4.0-x86_64.exe",
+        "name": "rustdesk-1.4.0-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.0/rustdesk-1.4.0-x86_64.msi",
+        "name": "rustdesk-1.4.0-x86_64.msi"
+      }
     ]
   },
   {
@@ -136,7 +955,64 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.9/rustdesk-1.3.9-aarch64.deb",
+        "name": "rustdesk-1.3.9-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.9/rustdesk-1.3.9-aarch64.dmg",
+        "name": "rustdesk-1.3.9-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.9/rustdesk-1.3.9-armv7-sciter.deb",
+        "name": "rustdesk-1.3.9-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.9/rustdesk-1.3.9-x86-sciter.exe",
+        "name": "rustdesk-1.3.9-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.9/rustdesk-1.3.9-x86_64-sciter.deb",
+        "name": "rustdesk-1.3.9-x86_64-sciter.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.9/rustdesk-1.3.9-x86_64.deb",
+        "name": "rustdesk-1.3.9-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.9/rustdesk-1.3.9-x86_64.dmg",
+        "name": "rustdesk-1.3.9-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.9/rustdesk-1.3.9-x86_64.exe",
+        "name": "rustdesk-1.3.9-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.9/rustdesk-1.3.9-x86_64.msi",
+        "name": "rustdesk-1.3.9-x86_64.msi"
+      }
     ]
   },
   {
@@ -146,7 +1022,64 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.8/rustdesk-1.3.8-aarch64.deb",
+        "name": "rustdesk-1.3.8-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.8/rustdesk-1.3.8-aarch64.dmg",
+        "name": "rustdesk-1.3.8-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.8/rustdesk-1.3.8-armv7-sciter.deb",
+        "name": "rustdesk-1.3.8-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.8/rustdesk-1.3.8-x86-sciter.exe",
+        "name": "rustdesk-1.3.8-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.8/rustdesk-1.3.8-x86_64-sciter.deb",
+        "name": "rustdesk-1.3.8-x86_64-sciter.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.8/rustdesk-1.3.8-x86_64.deb",
+        "name": "rustdesk-1.3.8-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.8/rustdesk-1.3.8-x86_64.dmg",
+        "name": "rustdesk-1.3.8-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.8/rustdesk-1.3.8-x86_64.exe",
+        "name": "rustdesk-1.3.8-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.8/rustdesk-1.3.8-x86_64.msi",
+        "name": "rustdesk-1.3.8-x86_64.msi"
+      }
     ]
   },
   {
@@ -156,7 +1089,64 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.7/rustdesk-1.3.7-aarch64.deb",
+        "name": "rustdesk-1.3.7-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.7/rustdesk-1.3.7-aarch64.dmg",
+        "name": "rustdesk-1.3.7-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.7/rustdesk-1.3.7-armv7-sciter.deb",
+        "name": "rustdesk-1.3.7-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.7/rustdesk-1.3.7-x86-sciter.exe",
+        "name": "rustdesk-1.3.7-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.7/rustdesk-1.3.7-x86_64-sciter.deb",
+        "name": "rustdesk-1.3.7-x86_64-sciter.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.7/rustdesk-1.3.7-x86_64.deb",
+        "name": "rustdesk-1.3.7-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.7/rustdesk-1.3.7-x86_64.dmg",
+        "name": "rustdesk-1.3.7-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.7/rustdesk-1.3.7-x86_64.exe",
+        "name": "rustdesk-1.3.7-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.7/rustdesk-1.3.7-x86_64.msi",
+        "name": "rustdesk-1.3.7-x86_64.msi"
+      }
     ]
   },
   {
@@ -166,7 +1156,64 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.6/rustdesk-1.3.6-aarch64.deb",
+        "name": "rustdesk-1.3.6-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.6/rustdesk-1.3.6-aarch64.dmg",
+        "name": "rustdesk-1.3.6-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.6/rustdesk-1.3.6-armv7-sciter.deb",
+        "name": "rustdesk-1.3.6-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.6/rustdesk-1.3.6-x86-sciter.exe",
+        "name": "rustdesk-1.3.6-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.6/rustdesk-1.3.6-x86_64-sciter.deb",
+        "name": "rustdesk-1.3.6-x86_64-sciter.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.6/rustdesk-1.3.6-x86_64.deb",
+        "name": "rustdesk-1.3.6-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.6/rustdesk-1.3.6-x86_64.dmg",
+        "name": "rustdesk-1.3.6-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.6/rustdesk-1.3.6-x86_64.exe",
+        "name": "rustdesk-1.3.6-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.6/rustdesk-1.3.6-x86_64.msi",
+        "name": "rustdesk-1.3.6-x86_64.msi"
+      }
     ]
   },
   {
@@ -176,7 +1223,64 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.5/rustdesk-1.3.5-aarch64.deb",
+        "name": "rustdesk-1.3.5-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.5/rustdesk-1.3.5-aarch64.dmg",
+        "name": "rustdesk-1.3.5-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.5/rustdesk-1.3.5-armv7-sciter.deb",
+        "name": "rustdesk-1.3.5-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.5/rustdesk-1.3.5-x86-sciter.exe",
+        "name": "rustdesk-1.3.5-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.5/rustdesk-1.3.5-x86_64-sciter.deb",
+        "name": "rustdesk-1.3.5-x86_64-sciter.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.5/rustdesk-1.3.5-x86_64.deb",
+        "name": "rustdesk-1.3.5-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.5/rustdesk-1.3.5-x86_64.dmg",
+        "name": "rustdesk-1.3.5-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.5/rustdesk-1.3.5-x86_64.exe",
+        "name": "rustdesk-1.3.5-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.5/rustdesk-1.3.5-x86_64.msi",
+        "name": "rustdesk-1.3.5-x86_64.msi"
+      }
     ]
   },
   {
@@ -186,7 +1290,64 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.4/rustdesk-1.3.4-aarch64.deb",
+        "name": "rustdesk-1.3.4-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.4/rustdesk-1.3.4-aarch64.dmg",
+        "name": "rustdesk-1.3.4-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.4/rustdesk-1.3.4-armv7-sciter.deb",
+        "name": "rustdesk-1.3.4-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.4/rustdesk-1.3.4-x86-sciter.exe",
+        "name": "rustdesk-1.3.4-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.4/rustdesk-1.3.4-x86_64-sciter.deb",
+        "name": "rustdesk-1.3.4-x86_64-sciter.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.4/rustdesk-1.3.4-x86_64.deb",
+        "name": "rustdesk-1.3.4-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.4/rustdesk-1.3.4-x86_64.dmg",
+        "name": "rustdesk-1.3.4-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.4/rustdesk-1.3.4-x86_64.exe",
+        "name": "rustdesk-1.3.4-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.4/rustdesk-1.3.4-x86_64.msi",
+        "name": "rustdesk-1.3.4-x86_64.msi"
+      }
     ]
   },
   {
@@ -196,7 +1357,64 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.3/rustdesk-1.3.3-aarch64.deb",
+        "name": "rustdesk-1.3.3-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.3/rustdesk-1.3.3-aarch64.dmg",
+        "name": "rustdesk-1.3.3-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.3/rustdesk-1.3.3-armv7-sciter.deb",
+        "name": "rustdesk-1.3.3-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.3/rustdesk-1.3.3-x86-sciter.exe",
+        "name": "rustdesk-1.3.3-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.3/rustdesk-1.3.3-x86_64-sciter.deb",
+        "name": "rustdesk-1.3.3-x86_64-sciter.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.3/rustdesk-1.3.3-x86_64.deb",
+        "name": "rustdesk-1.3.3-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.3/rustdesk-1.3.3-x86_64.dmg",
+        "name": "rustdesk-1.3.3-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.3/rustdesk-1.3.3-x86_64.exe",
+        "name": "rustdesk-1.3.3-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.3/rustdesk-1.3.3-x86_64.msi",
+        "name": "rustdesk-1.3.3-x86_64.msi"
+      }
     ]
   },
   {
@@ -206,7 +1424,64 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.2/rustdesk-1.3.2-aarch64.deb",
+        "name": "rustdesk-1.3.2-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.2/rustdesk-1.3.2-aarch64.dmg",
+        "name": "rustdesk-1.3.2-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.2/rustdesk-1.3.2-armv7-sciter.deb",
+        "name": "rustdesk-1.3.2-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.2/rustdesk-1.3.2-x86-sciter.exe",
+        "name": "rustdesk-1.3.2-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.2/rustdesk-1.3.2-x86_64-sciter.deb",
+        "name": "rustdesk-1.3.2-x86_64-sciter.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.2/rustdesk-1.3.2-x86_64.deb",
+        "name": "rustdesk-1.3.2-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.2/rustdesk-1.3.2-x86_64.dmg",
+        "name": "rustdesk-1.3.2-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.2/rustdesk-1.3.2-x86_64.exe",
+        "name": "rustdesk-1.3.2-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.2/rustdesk-1.3.2-x86_64.msi",
+        "name": "rustdesk-1.3.2-x86_64.msi"
+      }
     ]
   },
   {
@@ -216,7 +1491,64 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.1/rustdesk-1.3.1-aarch64.deb",
+        "name": "rustdesk-1.3.1-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.1/rustdesk-1.3.1-aarch64.dmg",
+        "name": "rustdesk-1.3.1-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.1/rustdesk-1.3.1-armv7-sciter.deb",
+        "name": "rustdesk-1.3.1-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.1/rustdesk-1.3.1-x86-sciter.exe",
+        "name": "rustdesk-1.3.1-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.1/rustdesk-1.3.1-x86_64-sciter.deb",
+        "name": "rustdesk-1.3.1-x86_64-sciter.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.1/rustdesk-1.3.1-x86_64.deb",
+        "name": "rustdesk-1.3.1-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.1/rustdesk-1.3.1-x86_64.dmg",
+        "name": "rustdesk-1.3.1-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.1/rustdesk-1.3.1-x86_64.exe",
+        "name": "rustdesk-1.3.1-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.1/rustdesk-1.3.1-x86_64.msi",
+        "name": "rustdesk-1.3.1-x86_64.msi"
+      }
     ]
   },
   {
@@ -226,7 +1558,64 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.0/rustdesk-1.3.0-aarch64.deb",
+        "name": "rustdesk-1.3.0-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.0/rustdesk-1.3.0-aarch64.dmg",
+        "name": "rustdesk-1.3.0-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.0/rustdesk-1.3.0-armv7-sciter.deb",
+        "name": "rustdesk-1.3.0-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.0/rustdesk-1.3.0-x86-sciter.exe",
+        "name": "rustdesk-1.3.0-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.0/rustdesk-1.3.0-x86_64-sciter.deb",
+        "name": "rustdesk-1.3.0-x86_64-sciter.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.0/rustdesk-1.3.0-x86_64.deb",
+        "name": "rustdesk-1.3.0-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.0/rustdesk-1.3.0-x86_64.dmg",
+        "name": "rustdesk-1.3.0-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.0/rustdesk-1.3.0-x86_64.exe",
+        "name": "rustdesk-1.3.0-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.0/rustdesk-1.3.0-x86_64.msi",
+        "name": "rustdesk-1.3.0-x86_64.msi"
+      }
     ]
   },
   {
@@ -236,7 +1625,64 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.7/rustdesk-1.2.7-aarch64.deb",
+        "name": "rustdesk-1.2.7-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.7/rustdesk-1.2.7-aarch64.dmg",
+        "name": "rustdesk-1.2.7-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.7/rustdesk-1.2.7-armv7-sciter.deb",
+        "name": "rustdesk-1.2.7-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.7/rustdesk-1.2.7-x86-sciter.exe",
+        "name": "rustdesk-1.2.7-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.7/rustdesk-1.2.7-x86_64-sciter.deb",
+        "name": "rustdesk-1.2.7-x86_64-sciter.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.7/rustdesk-1.2.7-x86_64.deb",
+        "name": "rustdesk-1.2.7-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.7/rustdesk-1.2.7-x86_64.dmg",
+        "name": "rustdesk-1.2.7-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.7/rustdesk-1.2.7-x86_64.exe",
+        "name": "rustdesk-1.2.7-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.7/rustdesk-1.2.7-x86_64.msi",
+        "name": "rustdesk-1.2.7-x86_64.msi"
+      }
     ]
   },
   {
@@ -246,7 +1692,58 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-aarch64.deb",
+        "name": "rustdesk-1.2.6-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-aarch64.dmg",
+        "name": "rustdesk-1.2.6-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-armv7-sciter.deb",
+        "name": "rustdesk-1.2.6-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86-sciter.exe",
+        "name": "rustdesk-1.2.6-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86_64.deb",
+        "name": "rustdesk-1.2.6-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86_64.dmg",
+        "name": "rustdesk-1.2.6-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86_64.exe",
+        "name": "rustdesk-1.2.6-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86_64.msi",
+        "name": "rustdesk-1.2.6-x86_64.msi"
+      }
     ]
   },
   {
@@ -256,7 +1753,58 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.5/rustdesk-1.2.5-aarch64.deb",
+        "name": "rustdesk-1.2.5-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.5/rustdesk-1.2.5-aarch64.dmg",
+        "name": "rustdesk-1.2.5-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.5/rustdesk-1.2.5-armv7-sciter.deb",
+        "name": "rustdesk-1.2.5-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.5/rustdesk-1.2.5-x86-sciter.exe",
+        "name": "rustdesk-1.2.5-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.5/rustdesk-1.2.5-x86_64.deb",
+        "name": "rustdesk-1.2.5-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.5/rustdesk-1.2.5-x86_64.dmg",
+        "name": "rustdesk-1.2.5-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.5/rustdesk-1.2.5-x86_64.exe",
+        "name": "rustdesk-1.2.5-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.5/rustdesk-1.2.5-x86_64.msi",
+        "name": "rustdesk-1.2.5-x86_64.msi"
+      }
     ]
   },
   {
@@ -266,7 +1814,58 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.4/rustdesk-1.2.4-aarch64.deb",
+        "name": "rustdesk-1.2.4-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.4/rustdesk-1.2.4-aarch64.dmg",
+        "name": "rustdesk-1.2.4-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.4/rustdesk-1.2.4-armv7-sciter.deb",
+        "name": "rustdesk-1.2.4-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.4/rustdesk-1.2.4-x86-sciter.exe",
+        "name": "rustdesk-1.2.4-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.4/rustdesk-1.2.4-x86_64.deb",
+        "name": "rustdesk-1.2.4-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.4/rustdesk-1.2.4-x86_64.dmg",
+        "name": "rustdesk-1.2.4-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.4/rustdesk-1.2.4-x86_64.exe",
+        "name": "rustdesk-1.2.4-x86_64.exe"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.4/rustdesk-1.2.4-x86_64.msi",
+        "name": "rustdesk-1.2.4-x86_64.msi"
+      }
     ]
   },
   {
@@ -276,7 +1875,52 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.deb",
+        "name": "rustdesk-1.2.3-2-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.dmg",
+        "name": "rustdesk-1.2.3-2-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-armv7-sciter.deb",
+        "name": "rustdesk-1.2.3-2-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86-sciter.exe",
+        "name": "rustdesk-1.2.3-2-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.deb",
+        "name": "rustdesk-1.2.3-2-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.dmg",
+        "name": "rustdesk-1.2.3-2-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.exe",
+        "name": "rustdesk-1.2.3-2-x86_64.exe"
+      }
     ]
   },
   {
@@ -286,7 +1930,52 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.3-1/rustdesk-1.2.3-1-aarch64.deb",
+        "name": "rustdesk-1.2.3-1-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.3-1/rustdesk-1.2.3-1-aarch64.dmg",
+        "name": "rustdesk-1.2.3-1-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.3-1/rustdesk-1.2.3-1-armv7-sciter.deb",
+        "name": "rustdesk-1.2.3-1-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.3-1/rustdesk-1.2.3-1-x86-sciter.exe",
+        "name": "rustdesk-1.2.3-1-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.3-1/rustdesk-1.2.3-1-x86_64.deb",
+        "name": "rustdesk-1.2.3-1-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.3-1/rustdesk-1.2.3-1-x86_64.dmg",
+        "name": "rustdesk-1.2.3-1-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.3-1/rustdesk-1.2.3-1-x86_64.exe",
+        "name": "rustdesk-1.2.3-1-x86_64.exe"
+      }
     ]
   },
   {
@@ -296,7 +1985,52 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.deb",
+        "name": "rustdesk-1.2.3-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.dmg",
+        "name": "rustdesk-1.2.3-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-armv7-sciter.deb",
+        "name": "rustdesk-1.2.3-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86-sciter.exe",
+        "name": "rustdesk-1.2.3-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb",
+        "name": "rustdesk-1.2.3-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.dmg",
+        "name": "rustdesk-1.2.3-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.exe",
+        "name": "rustdesk-1.2.3-x86_64.exe"
+      }
     ]
   },
   {
@@ -306,7 +2040,52 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.deb",
+        "name": "rustdesk-1.2.2-aarch64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.dmg",
+        "name": "rustdesk-1.2.2-aarch64.dmg"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-armv7-sciter.deb",
+        "name": "rustdesk-1.2.2-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86-sciter.exe",
+        "name": "rustdesk-1.2.2-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.deb",
+        "name": "rustdesk-1.2.2-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.dmg",
+        "name": "rustdesk-1.2.2-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe",
+        "name": "rustdesk-1.2.2-x86_64.exe"
+      }
     ]
   },
   {
@@ -316,7 +2095,46 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-aarch64.deb",
+        "name": "rustdesk-1.2.1-aarch64.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-armv7-sciter.deb",
+        "name": "rustdesk-1.2.1-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86-sciter.exe",
+        "name": "rustdesk-1.2.1-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.deb",
+        "name": "rustdesk-1.2.1-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.dmg",
+        "name": "rustdesk-1.2.1-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.exe",
+        "name": "rustdesk-1.2.1-x86_64.exe"
+      }
     ]
   },
   {
@@ -326,20 +2144,104 @@
     "archs": [
       "amd64",
       "arm64",
-      "armhf"
+      "armhf",
+      "i386"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.0/rustdesk-1.2.0-aarch64.deb",
+        "name": "rustdesk-1.2.0-aarch64.deb"
+      },
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.0/rustdesk-1.2.0-armv7-sciter.deb",
+        "name": "rustdesk-1.2.0-armv7-sciter.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.0/rustdesk-1.2.0-x86-sciter.exe",
+        "name": "rustdesk-1.2.0-x86-sciter.exe"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.0/rustdesk-1.2.0-x86_64.deb",
+        "name": "rustdesk-1.2.0-x86_64.deb"
+      },
+      {
+        "os": "macos",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.0/rustdesk-1.2.0-x86_64.dmg",
+        "name": "rustdesk-1.2.0-x86_64.dmg"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.0/rustdesk-1.2.0-x86_64.exe",
+        "name": "rustdesk-1.2.0-x86_64.exe"
+      }
     ]
   },
   {
     "version": "1.1.9",
     "released_at": "2022-05-02T16:16:07Z",
     "added_at": "2026-03-10T14:25:43Z",
-    "archs": []
+    "archs": [
+      "amd64",
+      "armhf"
+    ],
+    "assets": [
+      {
+        "os": "linux",
+        "cpu": "armhf",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.1.9/rustdesk-1.1.9-raspberry-armhf.deb",
+        "name": "rustdesk-1.1.9-raspberry-armhf.deb"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.1.9/rustdesk-1.1.9-windows_x64-portable.zip",
+        "name": "rustdesk-1.1.9-windows_x64-portable.zip"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.1.9/rustdesk-1.1.9-windows_x64.zip",
+        "name": "rustdesk-1.1.9-windows_x64.zip"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.1.9/rustdesk-1.1.9-x64.exe",
+        "name": "rustdesk-1.1.9-x64.exe"
+      }
+    ]
   },
   {
     "version": "1.1.8",
     "released_at": "2021-08-23T06:47:05Z",
     "added_at": "2026-03-10T14:25:43Z",
-    "archs": []
+    "archs": [
+      "amd64"
+    ],
+    "assets": [
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.1.8/rustdesk-1.1.8-windows_x64-portable.zip",
+        "name": "rustdesk-1.1.8-windows_x64-portable.zip"
+      },
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.1.8/rustdesk-1.1.8-windows_x64.zip",
+        "name": "rustdesk-1.1.8-windows_x64.zip"
+      }
+    ]
   },
   {
     "version": "1.1.6",

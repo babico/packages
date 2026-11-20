@@ -6,6 +6,44 @@
     "archs": [
       "amd64",
       "arm64"
+    ],
+    "assets": [
+      {
+        "os": "windows",
+        "cpu": "amd64",
+        "url": "https://file-assets.apidog.com/download/Apidog-windows-latest.zip",
+        "name": "Apidog-windows-latest.zip"
+      },
+      {
+        "os": "windows",
+        "cpu": "i386",
+        "url": "https://file-assets.apidog.com/download/Apidog-win32-latest.zip",
+        "name": "Apidog-win32-latest.zip"
+      },
+      {
+        "os": "macos",
+        "cpu": "arm",
+        "url": "https://file-assets.apidog.com/download/Apidog-macOS-arm64-latest.zip",
+        "name": "Apidog-macOS-arm64-latest.zip"
+      },
+      {
+        "os": "macos",
+        "cpu": "x86",
+        "url": "https://file-assets.apidog.com/download/Apidog-macOS-latest.zip",
+        "name": "Apidog-macOS-latest.zip"
+      },
+      {
+        "os": "linux",
+        "cpu": "amd64",
+        "url": "https://file-assets.apidog.com/download/Apidog-linux-deb-latest.zip",
+        "name": "Apidog-linux-deb-latest.zip"
+      },
+      {
+        "os": "linux",
+        "cpu": "arm64",
+        "url": "https://file-assets.apidog.com/download/Apidog-linux-arm64-deb-latest.zip",
+        "name": "Apidog-linux-arm64-deb-latest.zip"
+      }
     ]
   }
 ]
