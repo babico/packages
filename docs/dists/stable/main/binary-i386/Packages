@@ -1,4 +1,68 @@
 Package: gh
+Version: 2.103.1
+Architecture: i386
+Maintainer: GitHub
+Installed-Size: 38065
+Depends: git
+Filename: pool/main/g/gh/gh_2.103.1_linux_386.deb
+Size: 14148268
+MD5sum: 4ee587cf91a614264c799d9e795d8bcb
+SHA1: d489ea529f607d468ed5deb1c5dde89131f13b7c
+SHA256: e6e41e279df5904bd1d8e6d69ca81b2a46572b5e7a3aa69db4c29ea81c0abf29
+Priority: optional
+Homepage: https://github.com/cli/cli
+Description: GitHub’s official command line tool.
+License: MIT
+
+Package: gh
+Version: 2.103.2
+Architecture: i386
+Maintainer: GitHub
+Installed-Size: 38057
+Depends: git
+Filename: pool/main/g/gh/gh_2.103.2_linux_386.deb
+Size: 14147026
+MD5sum: 2ec14e5e7c9a7355439dfb4f24502171
+SHA1: 29034f4ae8e860d1c17b9c043d67bb35f30cf7b6
+SHA256: 48e9e71d6f8daa87aef42b3df31d83023ece357cfb5321396c65cce2f56edc38
+Priority: optional
+Homepage: https://github.com/cli/cli
+Description: GitHub’s official command line tool.
+License: MIT
+
+Package: gh
+Version: 2.103.3
+Architecture: i386
+Maintainer: GitHub
+Installed-Size: 38065
+Depends: git
+Filename: pool/main/g/gh/gh_2.103.3_linux_386.deb
+Size: 14148728
+MD5sum: 8edc17291c53048a3287c6f0b28e3f64
+SHA1: 5f5261df790d8c6541b4e8bd30c65aec85bcbef6
+SHA256: 5b3b310d80e6bdb144d256b4c3794f01eac0cf3f6df44e893e5c85573f1138e5
+Priority: optional
+Homepage: https://github.com/cli/cli
+Description: GitHub’s official command line tool.
+License: MIT
+
+Package: gh
+Version: 2.104.0
+Architecture: i386
+Maintainer: GitHub
+Installed-Size: 38061
+Depends: git
+Filename: pool/main/g/gh/gh_2.104.0_linux_386.deb
+Size: 14127242
+MD5sum: bb42c658c3254f26c82a8098935f039f
+SHA1: cbc7b6f7a5ebcdf6de3b7afdb5c72a767b7b94bc
+SHA256: d3b90c66a71249ef1ff38450d1644708071d091388804411cd45ce66de2c5ed6
+Priority: optional
+Homepage: https://github.com/cli/cli
+Description: GitHub’s official command line tool.
+License: MIT
+
+Package: gh
 Version: 2.105.0
 Architecture: i386
 Maintainer: GitHub
@@ -13,6 +77,57 @@ Priority: optional
 Homepage: https://github.com/cli/cli
 Description: GitHub’s official command line tool.
 License: MIT
+
+Package: tixati
+Version: 3.41-1
+Architecture: i386
+Maintainer: Tixati-support <support@tixati.com>
+Installed-Size: 35000
+Depends: libc6 (>= 2.7), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libgtk-3-0 (>= 3.6.0), zlib1g (>= 1:1.1.4)
+Filename: pool/main/t/tixati/tixati_3.41-1_i686.deb
+Size: 17967188
+MD5sum: fe4cdb4542de33f48c431fbab8b12518
+SHA1: 738e9fee08668490904c3110ac0efdc9143779fe
+SHA256: bd34b85b51661f655ac4c16c5f08645efa7edecc902124e4edbd77925bb95d86
+Section: Network
+Priority: optional
+Homepage: http://www.tixati.com
+Description: Tixati P2P Client
+ Tixati P2P Client
+
+Package: tixati
+Version: 3.42-1
+Architecture: i386
+Maintainer: Tixati-support <support@tixati.com>
+Installed-Size: 35000
+Depends: libc6 (>= 2.7), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libgtk-3-0 (>= 3.6.0), zlib1g (>= 1:1.1.4)
+Filename: pool/main/t/tixati/tixati_3.42-1_i686.deb
+Size: 17982096
+MD5sum: d787f3bb4e36a336b4e107ba5be873fc
+SHA1: 5edbab1283e05792e78c95eca3908fa6de811bb2
+SHA256: 751e1c5682005c5cdcad966a8d2c68b5b58eb4bc9948ea5c6596c16b280578ab
+Section: Network
+Priority: optional
+Homepage: http://www.tixati.com
+Description: Tixati P2P Client
+ Tixati P2P Client
+
+Package: tixati
+Version: 3.43-1
+Architecture: i386
+Maintainer: Tixati-support <support@tixati.com>
+Installed-Size: 35000
+Depends: libc6 (>= 2.7), libgtk-3-0 (>= 3.6.0), zlib1g (>= 1:1.1.4)
+Filename: pool/main/t/tixati/tixati_3.43-1_i686.deb
+Size: 18487788
+MD5sum: ae1f22ac7696cccf454aaf1171e3cc35
+SHA1: 01602fc158f28876a2c5b94601a16f04461160a9
+SHA256: 27363fe6a23a9eac6703a82b9ebb216afbef451b6ede302db56209b85a340df7
+Section: Network
+Priority: optional
+Homepage: http://www.tixati.com
+Description: Tixati P2P Client
+ Tixati P2P Client
 
 Package: tixati
 Version: 3.44-1
