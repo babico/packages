@@ -1,17 +1,17 @@
 {
-    "version": "6.4.0",
+    "version": "6.2.2",
     "description": "Mattermost desktop application for team messaging",
     "homepage": "https://mattermost.com",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mattermost/desktop/releases/download/v6.4.0/mattermost-desktop-6.4.0-win-x64.msi",
-            "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            "url": "https://github.com/mattermost/desktop/releases/download/v6.2.2/mattermost-desktop-6.2.2-win-x64.msi",
+            "hash": "0caa476473ba09f5b9ebc24eeeeeb485e94d7b9aa5d36e27227dbe4dbce7152b"
         }
     },
     "installer": {
         "script": [
-            "msiexec /i \"$dir\\mattermost-desktop-6.4.0-win-x64.msi\" /qn /norestart"
+            "msiexec /i \"$dir\\mattermost-desktop-6.2.2-win-x64.msi\" /qn /norestart"
         ]
     },
     "uninstaller": {

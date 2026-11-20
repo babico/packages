@@ -53,7 +53,7 @@ jobs:
           GPG_KEY_ID: ${{ env.GPG_KEY_ID }}
           GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
         run: |
-          bash scripts/build-all.sh "${{ github.event.inputs.force || 'force' }}"
+          bash scripts/build-all.sh "${{ github.event.inputs.force || 'rebuild' }}"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

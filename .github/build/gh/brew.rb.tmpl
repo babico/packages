@@ -17,7 +17,7 @@ class Gh < Formula
 
     def install
       system "unzip", "-q", pkgfiles.first
-      bin.install "bin/gh"
+      bin.install Dir["*/gh"].first
     end
   end
 

@@ -122,6 +122,32 @@ tracked/                        # Version tracking per product
    └───────────────────────────────────────────┘
 ```
 
+## Version history / backfill
+
+`tracked/*.json` holds every upstream release we can discover, going back as
+far as the source allows (GitHub releases API for GitHub-hosted apps, directory
+listing for Tixati). A version is tracked **only after its `.deb` actually
+landed in the pool** — no installable file, no version entry.
+
+Apidog only publishes `latest` URLs and its `.deb` is ~157 MB (over GitHub's
+100 MiB git limit). It uses `ephemeral_pool: true`: the binary is downloaded
+into `docs/pool/` on every CI run (never committed) so it is included in the
+Pages artifact and can be served, and `publish_archs: amd64` keeps the site
+under the 1 GB limit.
+
+```bash
+bash scripts/backfill-history.sh   # extend tracked/*.json from upstream (metadata only)
+bash scripts/backfill-debs.sh      # download historical .deb files into docs/pool/
+git add -f docs/pool/              # pool/*.deb is gitignored — force-add to publish
+```
+
+`backfill-debs.sh` is budgeted (`BUDGET_MB`, `MAX_GH`, `MAX_RUSTDESK`,
+`MAX_TIXATI`) to stay under the GitHub Pages size limit. Mattermost is skipped
+(~98 MB per package). Apidog is handled by the ephemeral pool described above.
+CI rebuilds and signs `docs/dists/` from the complete pool on every run.
+
+`bash scripts/verify.sh` runs offline checks over the scripts and artifacts.
+
 ## Adding a new app
 
 Create a folder under `.github/build/` with:

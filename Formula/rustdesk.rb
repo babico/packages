@@ -5,15 +5,15 @@ class Rustdesk < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/rustdesk/rustdesk/releases/download/1.5.3/rustdesk-1.5.3-aarch64.dmg"
-      sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      url "https://github.com/rustdesk/rustdesk/releases/download/1.4.9/rustdesk-1.4.9-aarch64.dmg"
+      sha256 "f7935597b247d42c8f2a2ed71176a9f5868018cd9e1a33b8096418a668c8caf0"
     end
     on_intel do
-      url "https://github.com/rustdesk/rustdesk/releases/download/1.5.3/rustdesk-1.5.3-x86_64.dmg"
-      sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      url "https://github.com/rustdesk/rustdesk/releases/download/1.4.9/rustdesk-1.4.9-x86_64.dmg"
+      sha256 "fa1129a0635019f9c5841937942cc2b08be028a192f47c009edde7e53812904e"
     end
 
-    version "1.5.3"
+    version "1.4.9"
 
     def install
       system "hdiutil", "attach", "-nobrowse", "-mountpoint", "#{var}/mount", pkgfiles.first
@@ -24,9 +24,9 @@ class Rustdesk < Formula
   end
 
   on_linux do
-    url "https://github.com/rustdesk/rustdesk/releases/download/1.5.3/rustdesk-1.5.3-x86_64.deb"
-    sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    version "1.5.3"
+    url "https://github.com/rustdesk/rustdesk/releases/download/1.4.9/rustdesk-1.4.9-x86_64.deb"
+    sha256 "7244ba47c40e804172044bfbe659467c54ce46554c98e78c8c0406f1d612fda3"
+    version "1.4.9"
 
     def install
       system "dpkg", "-x", pkgfiles.first, "."

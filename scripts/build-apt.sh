@@ -17,6 +17,20 @@ PY="$SCRIPT_DIR/yaml-get.py"
 
 yget() { python3 "$PY" "$@"; }
 
+# Build a find(1) name pattern for a target. Downloaded debs keep a predictable
+# pool_name; extracted debs keep their upstream inner_pattern (e.g. apidog).
+# The generic suffix glob is only a last resort.
+deb_pattern() {
+  local bf="$1" pattern
+  pattern=$(yget "$bf" pool_name)
+  [ -z "$pattern" ] && pattern=$(yget "$bf" inner_pattern)
+  if [ -n "$pattern" ]; then
+    printf '%s' "$pattern" | sed 's|${VERSION}|*|g'
+  else
+    printf '*%s' "$(yget "$bf" suffix)"
+  fi
+}
+
 echo "==> Building APT index from pool (all apps, all versions)..."
 
 ALL_ARCHS=""
@@ -47,17 +61,19 @@ for ARCH in $ALL_ARCHS; do
     [ -f "$dir/config.yml" ] || continue
     name=$(yget "$dir/config.yml" name)
     pool_letter=$(yget "$dir/config.yml" pool_letter)
-    suffix=""
+    pattern=""
+    target_bf=""
 
     for bf in "$dir"deb-*.yml; do
       [ -f "$bf" ] || continue
       bf_arch=$(yget "$bf" arch)
       if [ "$bf_arch" = "$ARCH" ]; then
-        suffix=$(yget "$bf" suffix)
+        target_bf="$bf"
+        pattern=$(deb_pattern "$bf")
         break
       fi
     done
-    [ -z "$suffix" ] && continue
+    [ -n "$pattern" ] && [ -n "$target_bf" ] || continue
 
     SRC_POOL="$POOL/${pool_letter}/${name}"
     [ -d "$SRC_POOL" ] || continue
@@ -68,7 +84,7 @@ for ARCH in $ALL_ARCHS; do
     while IFS= read -r -d '' DEB; do
       ln "$DEB" "$STAGE_APP/$(basename "$DEB")" 2>/dev/null \
         || cp "$DEB" "$STAGE_APP/$(basename "$DEB")"
-    done < <(find "$SRC_POOL" -name "*${suffix}" -print0 2>/dev/null)
+    done < <(find "$SRC_POOL" -name "$pattern" -print0 2>/dev/null)
   done
 
   COUNT=$(find "$STAGE_POOL" -name '*.deb' 2>/dev/null | wc -l)
@@ -81,7 +97,7 @@ for ARCH in $ALL_ARCHS; do
   mkdir -p "$PKG_DIR"
 
   (cd "$STAGING/$ARCH" && \
-    dpkg-scanpackages "pool/$COMP" /dev/null 2>/dev/null) \
+    dpkg-scanpackages --multiversion "pool/$COMP" /dev/null 2>/dev/null) \
     > "$PKG_DIR/Packages"
 
   FIRST=$(grep '^Filename:' "$PKG_DIR/Packages" | head -1)

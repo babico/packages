@@ -1,6 +1,8 @@
 
 # The pool contains large .deb binaries — track only the index/metadata in git.
 # CI downloads debs fresh each run from upstream GitHub releases.
+# Historical backfill debs are force-added with `git add -f docs/pool/` so Pages
+# can serve them; CI rebuilds the signed APT index from the full pool.
 docs/pool/**/*.deb
 
 # .rpm files in pool are tracked (built by CI, served via Pages)

@@ -29,7 +29,7 @@ class MattermostDesktop < Formula
     version "${VERSION}"
 
     def install
-      system "rpm2cpio", pkgfiles.first, "|", "cpio", "-idmv"
+      system "rpm2cpio #{pkgfiles.first} | cpio -idmv"
       bin.install "usr/bin/mattermost-desktop" if File.exist?("usr/bin/mattermost-desktop")
     end
   end

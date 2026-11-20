@@ -7,3 +7,7 @@ source: zip_download
 pool_letter: a
 extract_regex: "apidog_([0-9.]+)_"
 changelog_url: https://apidog.canny.io/changelog
+# Debs are ~157 MB: too large for git (100 MiB hard limit). CI downloads the
+# current artifact into the Pages pool every run instead of committing it.
+ephemeral_pool: true
+publish_archs: amd64

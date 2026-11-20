@@ -3,25 +3,41 @@
     "version": "1.5.3",
     "released_at": "2026-11-09T09:43:52Z",
     "added_at": "2026-11-20T00:29:41Z",
-    "archs": []
+    "archs": [
+      "amd64",
+      "arm64",
+      "armhf"
+    ]
   },
   {
     "version": "1.5.1",
     "released_at": "2026-11-01T16:13:27Z",
     "added_at": "2026-11-11T05:40:50Z",
-    "archs": []
+    "archs": [
+      "amd64",
+      "arm64",
+      "armhf"
+    ]
   },
   {
     "version": "1.5.0",
     "released_at": "2026-09-30T16:11:03Z",
     "added_at": "2026-11-01T21:54:18Z",
-    "archs": []
+    "archs": [
+      "amd64",
+      "arm64",
+      "armhf"
+    ]
   },
   {
     "version": "1.4.9",
     "released_at": "2026-07-06T10:02:30Z",
     "added_at": "2026-10-01T22:32:37Z",
-    "archs": []
+    "archs": [
+      "amd64",
+      "arm64",
+      "armhf"
+    ]
   },
   {
     "version": "1.4.8",
@@ -227,6 +243,26 @@
     "version": "1.2.6",
     "released_at": "2024-06-23T03:59:11Z",
     "added_at": "2026-03-10T14:25:43Z",
+    "archs": [
+      "amd64",
+      "arm64",
+      "armhf"
+    ]
+  },
+  {
+    "version": "1.2.5",
+    "released_at": "2024-06-03T05:28:34Z",
+    "added_at": "2026-11-20T10:34:17Z",
+    "archs": [
+      "amd64",
+      "arm64",
+      "armhf"
+    ]
+  },
+  {
+    "version": "1.2.4",
+    "released_at": "2024-05-11T08:22:06Z",
+    "added_at": "2026-11-20T10:34:17Z",
     "archs": [
       "amd64",
       "arm64",

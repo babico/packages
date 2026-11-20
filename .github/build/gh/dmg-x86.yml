@@ -1,0 +1,4 @@
+format: dmg
+arch: x86
+suffix: macOS_amd64.zip
+download_url: "https://github.com/cli/cli/releases/download/v${VERSION}/gh_${VERSION}_${SUFFIX}"

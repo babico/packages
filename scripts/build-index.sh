@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # build-index.sh — Generate compact HTML landing page.
-set -uo pipefail
+set -euo pipefail
 shopt -s nullglob
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
@@ -8,6 +8,17 @@ BUILD_DIR="$SCRIPT_DIR/../.github/build"
 TRACK_DIR="$SCRIPT_DIR/../tracked"
 PY="$SCRIPT_DIR/yaml-get.py"
 yget() { python3 "$PY" "$@"; }
+
+deb_pattern() {
+  local bf="$1" ver="$2" pattern
+  pattern=$(yget "$bf" pool_name)
+  [ -z "$pattern" ] && pattern=$(yget "$bf" inner_pattern)
+  if [ -n "$pattern" ]; then
+    printf '%s' "$pattern" | sed "s|\${VERSION}|$ver|g"
+  else
+    printf '*%s' "$(yget "$bf" suffix)"
+  fi
+}
 
 OWNER="${GITHUB_REPOSITORY_OWNER:-babico}"
 SLUG="${GITHUB_REPOSITORY:-babico/packages}"
@@ -53,7 +64,9 @@ for dir in "$BUILD_DIR"/*/; do
         for bf in "$dir"deb-*.yml; do
           [ -f "$bf" ] || continue
           [ "$(yget "$bf" arch)" = "$ARCH" ] || continue
-          pkg=$(find "docs/pool/main/${pool_letter}/${app_name}/" -name "*_${ARCH}.deb" -print 2>/dev/null | head -1 | xargs basename 2>/dev/null || echo "")
+          bf_pattern=$(deb_pattern "$bf" "$V")
+          pkg=$(find "docs/pool/main/${pool_letter}/${app_name}/" -maxdepth 1 -name "$bf_pattern" -print 2>/dev/null | head -1 || true)
+          [ -n "$pkg" ] && pkg=$(basename "$pkg")
           [ -n "$pkg" ] && DEB_LINKS="${DEB_LINKS}<a class=\"dl\" href=\"${URL}/pool/main/${pool_letter}/${app_name}/${pkg}\">${ARCH}</a>"
           break
         done
@@ -68,9 +81,14 @@ for dir in "$BUILD_DIR"/*/; do
         C_LINK="<a class=\"dl\" href=\"${homepage}\">site</a>"
       fi
 
+      latest_badge=""
+      if [ "$V" = "$LATEST" ]; then
+        latest_badge=' <span class="badge-latest">latest</span>'
+      fi
+
       ROWS="${ROWS}
         <tr${latest_class}>
-          <td><code>${V}</code>$([ "$V" = "$LATEST" ] && echo ' <span class="badge-latest">latest</span>')</td>
+          <td><code>${V}</code>${latest_badge}</td>
           <td>${REL}</td>
           <td class=\"arch-cell\">${ARCHS}</td>
           <td>${DEB_LINKS}</td>

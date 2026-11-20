@@ -5,15 +5,15 @@ class MattermostDesktop < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/mattermost/desktop/releases/download/v6.4.0/mattermost-desktop-6.4.0-mac-arm64.dmg"
-      sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      url "https://github.com/mattermost/desktop/releases/download/v6.2.2/mattermost-desktop-6.2.2-mac-arm64.dmg"
+      sha256 "0bf3ed5b8bc6b994974b09e136157015656121f40c1b60c2a36bcb3c16309a17"
     end
     on_intel do
-      url "https://github.com/mattermost/desktop/releases/download/v6.4.0/mattermost-desktop-6.4.0-mac-x64.dmg"
-      sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      url "https://github.com/mattermost/desktop/releases/download/v6.2.2/mattermost-desktop-6.2.2-mac-x64.dmg"
+      sha256 "ce0ff37adf57c1d99eb83a5e3e7e2c0e951996f631be99e94c23919c8f9a2695"
     end
 
-    version "6.4.0"
+    version "6.2.2"
 
     def install
       system "hdiutil", "attach", "-nobrowse", "-mountpoint", "#{var}/mount", pkgfiles.first
@@ -24,12 +24,12 @@ class MattermostDesktop < Formula
   end
 
   on_linux do
-    url "https://github.com/mattermost/desktop/releases/download/v6.4.0/mattermost-desktop-6.4.0-linux-x86_64.rpm"
-    sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    version "6.4.0"
+    url "https://github.com/mattermost/desktop/releases/download/v6.2.2/mattermost-desktop-6.2.2-linux-x86_64.rpm"
+    sha256 "de9984854e956ebfd5c14d6ad705c6184a1252e864ea433f3fa9def440d2133b"
+    version "6.2.2"
 
     def install
-      system "rpm2cpio", pkgfiles.first, "|", "cpio", "-idmv"
+      system "rpm2cpio #{pkgfiles.first} | cpio -idmv"
       bin.install "usr/bin/mattermost-desktop" if File.exist?("usr/bin/mattermost-desktop")
     end
   end
