@@ -68,8 +68,10 @@ ok "Release checksums"
 
 echo "==> 6. landing page sanity"
 [ -s docs/index.html ] || fail "empty docs/index.html"
-grep -q 'id="card-gh"' docs/index.html || fail "gh card missing from index"
-grep -q 'id="card-apidog"' docs/index.html || fail "apidog card missing from index"
+grep -q 'id="app-gh"' docs/index.html || fail "gh panel missing from index"
+grep -q 'id="app-apidog"' docs/index.html || fail "apidog panel missing from index"
+grep -q '<th scope="col">Installers by platform</th>' docs/index.html || fail "install column missing"
+[ "$(grep -c 'class="vrow' docs/index.html)" -gt 0 ] || fail "no version rows in index"
 ok "index.html"
 
 echo "==> ALL CHECKS PASSED"
