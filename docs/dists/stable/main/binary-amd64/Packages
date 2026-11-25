@@ -1,15 +1,15 @@
 Package: apidog
-Version: 2.8.55
+Version: 2.8.56
 Architecture: amd64
 Maintainer: Apidog Team <support@apidog.com>
-Installed-Size: 848308
+Installed-Size: 858812
 Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
 Recommends: libappindicator3-1
-Filename: pool/main/a/apidog/apidog_2.8.55_amd64.deb
-Size: 157226736
-MD5sum: de1cdd40666b289eafcac828017d1f4a
-SHA1: 09f13640174704234ef598f65dc845786eec4ec3
-SHA256: 677442ce4dde2c8bb7adfd9fb4dbe5bcaf24481fd6d81d98741ef54cdc742f0e
+Filename: pool/main/a/apidog/apidog_2.8.56_amd64.deb
+Size: 159519562
+MD5sum: 886205708326943557b170363ddc2aeb
+SHA1: 7d43d2ca10292240019bad69848bc19bceb63659
+SHA256: 2fc286b91b58e44876831c631fb9b1ccea067fbe481c58a18a056f59fae74693
 Section: default
 Priority: optional
 Homepage: https://apidog.com/
