@@ -5,15 +5,15 @@ class Gh < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_macOS_arm64.zip"
-      sha256 "f23a0c37d963aacc3bed703ccbd59b41c5ca22101fab7f00eb2b7cad23aba463"
+      url "https://github.com/cli/cli/releases/download/v2.106.0/gh_2.106.0_macOS_arm64.zip"
+      sha256 "22b2b723dfbc69b6022b1b08604ff51c0db5aa8b6774b4ced1a47b8413a995d6"
     end
     on_intel do
-      url "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_macOS_amd64.zip"
-      sha256 "4bd449df9ad639391bc62b8032546f0fe9edcd8526e06682a4f88abd8c5d163c"
+      url "https://github.com/cli/cli/releases/download/v2.106.0/gh_2.106.0_macOS_amd64.zip"
+      sha256 "f43a04a5ffe0717e2e39d7591cbc50db24c6c38d09d0ea4998be27cd197758e3"
     end
 
-    version "2.96.0"
+    version "2.106.0"
 
     def install
       system "unzip", "-q", pkgfiles.first
@@ -23,15 +23,15 @@ class Gh < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_linux_armv6.deb"
-      sha256 "3391bd860facbe320a32d82dd52ab96a725c7e1668b16fc6f4cb2b04c85c7b2f"
+      url "https://github.com/cli/cli/releases/download/v2.106.0/gh_2.106.0_linux_armv6.deb"
+      sha256 "e72ae739debe125c82d588be287ae6ccc44118ff0bbae31d8fafe9ff33eef3f2"
     end
     on_intel do
-      url "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_linux_amd64.deb"
-      sha256 "11a731f4e0ca8c3db96ef6d2cc404dcab3d78247ce0e07c53e07117e7627d6a1"
+      url "https://github.com/cli/cli/releases/download/v2.106.0/gh_2.106.0_linux_amd64.deb"
+      sha256 "d76d387b8fe7619b9b7bfdf40883fa2b38f6e80cf773a3f4b1fcd5e8070ab346"
     end
 
-    version "2.96.0"
+    version "2.106.0"
 
     def install
       system "dpkg", "-x", pkgfiles.first, "."
