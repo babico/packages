@@ -94,22 +94,6 @@ Homepage: https://github.com/cli/cli
 Description: GitHub’s official command line tool.
 License: MIT
 
-Package: gh
-Version: 2.106.0
-Architecture: arm64
-Maintainer: GitHub
-Installed-Size: 38008
-Depends: git
-Filename: pool/main/g/gh/gh_2.106.0_linux_arm64.deb
-Size: 13798804
-MD5sum: 799d9dcb0bcc799ddfbe55f9fc27bf9a
-SHA1: c0cb8f141e3faceb4a82c6d3afcd216b8677cfb0
-SHA256: 8951c515bd53f48b5b98803441d88673651beac96cebbc07a04c3311867148e5
-Priority: optional
-Homepage: https://github.com/cli/cli
-Description: GitHub’s official command line tool.
-License: MIT
-
 Package: rustdesk
 Version: 1.4.6
 Architecture: arm64

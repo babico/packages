@@ -78,22 +78,6 @@ Homepage: https://github.com/cli/cli
 Description: GitHub’s official command line tool.
 License: MIT
 
-Package: gh
-Version: 2.106.0
-Architecture: i386
-Maintainer: GitHub
-Installed-Size: 38304
-Depends: git
-Filename: pool/main/g/gh/gh_2.106.0_linux_386.deb
-Size: 14216172
-MD5sum: 22a9576d405ee7691d2a38447a6575aa
-SHA1: bc5d879a9533fb94c091e316bb0fba53c3490639
-SHA256: 31c0befe386fbd8d02e51c19870e04548008a2024d67fd99a4af5680c8d4ad18
-Priority: optional
-Homepage: https://github.com/cli/cli
-Description: GitHub’s official command line tool.
-License: MIT
-
 Package: tixati
 Version: 3.41-1
 Architecture: i386
